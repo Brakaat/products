@@ -4,9 +4,6 @@ while True:
     if name == 'q':
         break
     price = input('Price:')
-    p = []
-    p.append(name)
-    p.append(price)
-    products.append(p)
+    products.append([name, price])
 print(products)
 
